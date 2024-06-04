@@ -1,0 +1,260 @@
+body {
+  background-color: #f6f3f3;
+  font-family: var(--font-inter)
+}
+
+/* Card container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+
+/* Individual card */
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  padding: 16px;
+  width: 120px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.504);
+  text-align: center;
+  transition: box-shadow 0.3s ease; /* Add transition for hover effect */
+}
+
+/* Hover effect for card */
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.173);
+}
+
+/* Style for images */
+.card img {
+  width: 25px;
+  height: auto;
+  display: block;
+  margin: 0 auto 8px; /* Center the image and add margin to separate from the number */
+}
+
+/* Style for number boxes */
+.number-box {
+  background-color: transparent; /* Set background color to light grey */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  padding: 12px; /* Adjust padding as needed */
+  display: inline-block; /* Display as inline block */
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+/* Style for numbers inside number boxes */
+.number {
+  color: #131313; /* Set font color to dark */
+  font-size: var(--font-size-5xl); /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+  line-height: 1; /* Ensure consistent line height */
+}
+
+/* Style for description text */
+.win-awards {
+  color: #666666; /* Set font color to grey */
+  font-size: var(--font-size-2xs-5); /* Adjust font size as needed */
+  margin: 8px 0 0; /* Add margin for spacing */
+}
+
+/* Style for Experts Growts text */
+.experts-growts {
+  padding-top: 30px;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  position: relative;
+  color: rgb(239, 59, 59);
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+/* Wrapper for Experts Growts text */
+.experts-growts-wrapper {
+  text-align: center;
+  font-family: inherit;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-5xl) 0 var(--padding-xl);
+}
+
+/* Style for Our Company Growth text */
+.our-company-grow {
+  align-self: stretch;
+  position: relative;
+  font-weight:bold;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-400);
+  font-family: inherit;
+}
+
+/* Flexbox layout for frame parent */
+.frame-parent5,
+.root-inner {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Flexbox layout for frame parent */
+.frame-parent5 {
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 19px;
+}
+
+/* Flexbox layout for root inner */
+.root-inner {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+
+/* Background style */
+.background11 {
+  width: 151px;
+  height: 128px;
+  position: relative;
+  background-color: var(--color-gray-100);
+}
+
+/* Style for image icon */
+.image-icon9 {
+  height: 20px;
+  width: 22px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+
+/* Wrapper for images */
+.image-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 52px 0 var(--padding-27xl);
+}
+
+/* Style for links and icons */
+.a,
+.image-icon10 {
+  position: relative;
+  z-index: 2;
+}
+
+.a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+}
+
+.image-icon10 {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+
+/* Flexbox layout for image wrapper */
+.frame-wrapper8,
+.image-wrapper2,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.image-wrapper2 {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+
+.frame-wrapper8,
+.parent {
+  flex-direction: row;
+}
+
+.parent {
+  gap: var(--gap-3xs);
+}
+
+/* Padding for frame wrapper */
+.frame-wrapper8 {
+  padding: 0 var(--padding-6xl) 0 var(--padding-lg);
+}
+
+/* Style for satisfied customer text */
+.staticfied-custo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xs-5);
+  color: #676667;
+  z-index: 2;
+}
+
+/* Flexbox layout for background and frame wrapper */
+.background-parent3,
+.frame-wrapper7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.background-parent3 {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  padding: var(--padding-mid) var(--padding-xs) var(--padding-3xl) var(--padding-lgi);
+  gap: var(--gap-2xs-5);
+  z-index: 1;
+}
+
+.frame-wrapper7 {
+  flex: 0.9805;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 137px;
+  max-width: 156px;
+}
+
+/* Background style */
+.background12 {
+  width: 155px;
+  height: 134px;
+  position: relative;
+  background-color: var(--color-gray-100);
+}
+
+/* Style for image icon */
+.image-icon11 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Wrapper for images */
+.image-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-27xl) 0 var(--padding-21xl);
+}
+
+/* Flex

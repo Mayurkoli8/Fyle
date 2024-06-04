@@ -1,0 +1,308 @@
+/* Image hover effect */
+.image-icon8, .image-icon {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-icon8:hover, .image-icon:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* Strategy, launch-details, groups2 styles */
+.strategy, .launch-details, .groups2 {
+  cursor: pointer;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+  background-color: rgb(247, 245, 245);
+  border-radius: 0;
+}
+
+.strategy.active, .launch-details.active, .groups2.active {
+  background-color: rgb(239, 59, 59);
+}
+
+/* General Styles */
+.our-project {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.project-name {
+  width: 100%;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-54xl) 0 70px;
+}
+
+.why-we-are {
+  width: 400px;
+  
+  align-self: stretch;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-400);
+  font-size: 40px;
+}
+
+.intro-container, .project-intro {
+  display: flex;
+  align-items: flex-start;
+}
+
+.intro-container {
+  width: 239px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+
+.project-intro {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.image-icon8 {
+  position: absolute;
+  width: calc(100% - 12px);
+  right: 4px;
+  bottom: 2px;
+  left: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 495px;
+  object-fit: cover;
+  padding-left: 50px;
+}
+
+.groups1 {
+  width: 70%;
+  height: 500px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gray-600);
+  min-width: 282px;
+  max-width: 100%;
+}
+
+.background-icon {
+  width: 207px;
+  height: 103px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+
+.genderless-kei- {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  
+}
+
+.new-a330neo-aircraft, .offering-lots-of, .set-to-launch {
+  margin: 0;
+  font-size: small;
+}
+
+.set-to-launch-container1, .set-to-launch-container3, .set-to-launch-container5 {
+  width: 100%;
+  font-size: small;
+}
+
+.set-to-launch-container, .set-to-launch-container2, .set-to-launch-container4 {
+  width: 161px;
+  position: relative;
+  font-size: var(--font-size-4xs-5);
+  color: var(--color-dimgray-100);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  
+  font-size: small;
+}
+
+.strategy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-lgi) var(--padding-13xl);
+  gap: 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.background9, .background10 {
+  width: 207px;
+  height: 102px;
+  position: relative;
+  background-color: var(--color-crimson-200);
+  display: none;
+}
+
+.better-strategy {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  font-size:x-large ;
+}
+
+.new-a330neo-circraft, .offering-lots-of1, .set-to-launch1, .new-a330neo-aircraft1, .offering-lots-of2, .set-to-launch2 {
+  margin: 0;
+  
+  font-size: small;
+}
+
+.launch-details, .launch-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.launch-info {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 16px 31px;
+  gap: var(--gap-6xs);
+  z-index: 2;
+}
+
+.launch-details {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+}
+
+.genderless-kei-1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  font-size:x-large;
+}
+
+.groups2 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-lg) var(--padding-10xl);
+  gap: var(--gap-4xs);
+  margin-top: -1px;
+  color: #4b4b4b;
+}
+
+.launch-details-parent, .strategy-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.feature-description 
+{
+  width: 60px; /* Make the description take full width */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 40px 40px var(--padding-11xs);
+  box-sizing: border-box;
+  padding-left: 50px;
+  min-width: 500px; /* Ensure it scales with the parent */
+}
+
+.features {
+  width: 100%; /* Make features take full width */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+  font-size: 1.5rem; /* Increase font size */
+  color: #3e3e3e;
+}
+
+.figma-design-screen-shot-2023, .root3 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.root3 {
+  flex: 1;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+  padding: 30px;
+  box-sizing: border-box;
+  gap: 30px;
+  max-width: 100%;
+  height: auto; /* Remove fixed height */
+  text-align: left;
+  font-size: 1rem; /* Increase base font size */
+  color: #ef6978;
+  font-family: var(--font-inter);
+}
+
+.figma-design-screen-shot-2023 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-600);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 900px) {
+  .root3 {
+    padding-left: var(--padding-46xl);
+    padding-right: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .feature-description {
+    flex: 1;
+  }
+  .features {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .why-we-are {
+    font-size: 1.25rem; /* Adjust font size for small screens */
+  }
+  .root3 {
+    gap: var(--gap-mini);
+    padding: 39px var(--padding-13xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
