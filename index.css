@@ -1,0 +1,207 @@
+.image-icon2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.background4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.groups-icon2 {
+  position: absolute;
+  top: 16px;
+  left: 464px;
+  width: 486px;
+  height: 410px;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-div {
+  width: 100%;
+  height: 480px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.award-winning2 {
+  text-decoration: none;
+  width: 145px;
+  position: relative;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.agency2,
+.digital-marketing2 {
+  margin: 0;
+}
+.digital-marketin2 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.digital-marketin-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-14xl);
+  color: var(--color-gray-500);
+}
+.award-winning-group,
+.digital-marketin-container,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.award-winning-group {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.frame-wrapper {
+  width: 100%;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.feugiot-et-fermentum2,
+.morbi-sed-locus2,
+.vitae-onte-at2 {
+  display: block;
+}
+.morbi-sed-locus-container3 {
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+.morbi-sed-locus-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-3xs-2);
+  color: var(--color-gray-300);
+}
+.background5 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: var(--color-crimson-200);
+  border: 1px solid var(--color-lightcoral-100);
+  box-sizing: border-box;
+  display: none;
+}
+.contactus2 {
+  width: 57px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.background-parent1 {
+  flex: 1;
+  background-color: var(--color-crimson-200);
+  border: 1px solid var(--color-lightcoral-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mini) var(--padding-5xs);
+  z-index: 2;
+}
+.frame-container {
+  width: 89px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xs);
+  color: var(--color-pink-100);
+}
+.figma-design-screen-shot-2021,
+.frame-container,
+.image-group,
+.root2 {
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-group {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-102xl) var(--padding-82xl) var(--padding-114xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-9xl);
+  background-image: url(./public/image@x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.figma-design-screen-shot-2021,
+.root2 {
+  background-color: var(--color-gray-600);
+  flex-direction: row;
+}
+.root2 {
+  flex: 1;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base-5);
+  color: var(--color-indianred-100);
+  font-family: var(--font-inter);
+}
+.figma-design-screen-shot-2021 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 100%) {
+  .digital-marketin2 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 100px) {
+  .image-group {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .digital-marketin2 {
+    font-size: var(--font-size-xl);
+  }
+  .image-group {
+    padding: var(--padding-60xl) var(--padding-xl) var(--padding-67xl);
+    box-sizing: border-box;
+  }
+}
